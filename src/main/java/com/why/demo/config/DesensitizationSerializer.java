@@ -12,6 +12,9 @@ import com.why.demo.domain.enums.DesensitizationEnum;
 import java.io.IOException;
 import java.util.Objects;
 
+/**
+ * 数据脱敏配置
+ */
 public final class DesensitizationSerializer extends JsonSerializer<String> implements ContextualSerializer {
 
     private DesensitizationEnum dataMaskEnum;
